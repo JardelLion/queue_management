@@ -17,7 +17,7 @@
             # css/js aqui
         ],
     },
-    'images': ['static/description/queue_management.png'],
+    'images': ['static/description/queue_management.jpg'],
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
