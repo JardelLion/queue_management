@@ -17,7 +17,6 @@
                 <list>
                     <field name="name"/>
                     <field name="client_id"/>
-                    <field name="service_id"/>
                     <field name="ticket_number"/>
                     <field name="state"/>
                 </list>
