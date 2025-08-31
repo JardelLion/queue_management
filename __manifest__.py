@@ -9,7 +9,7 @@
     'category': 'Services/Queue',
     'version': '1.0',
     'odoo_version': '18.0',
-    'depends': ['base'],
+    'depends': ['contact', 'website'],
     'data': [
     ],
     'assets': {
@@ -17,7 +17,7 @@
             # css/js aqui
         ],
     },
-    'images': ['static/description/queue_management.jpg'],
+    'images': ['static/description/icon.png'],
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
