@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="queue_management_queue_service_rule_multicompany" model="ir.rule">
+        <field name="name">Queue Service multi-company</field>
+        <field name="model_id" ref="model_queue_service"/>
+        <field name="groups" eval="[]"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="queue_management_queue_ticket_rule_multicompany" model="ir.rule">
+        <field name="name">Queue Ticket multi-company</field>
+        <field name="model_id" ref="model_queue_ticket"/>
+        <field name="groups" eval="[]"/>
+        <field name="domain_force">[('service_id.company_id', '=', company_id)]</field>
+    </record>
+</odoo>

@@ -9,11 +9,14 @@
     'category': 'Services/Queue',
     'version': '1.0',
     'odoo_version': '18.0',
-    'depends': ['contact', 'website'],
+    'depends': ['base','contacts', 'website'],
     'data': [
-        'security/ir.access.model.csv',
+        'security/ir_rules.xml',
+        'security/ir.model.access.csv',
+        'views/res_company_views.xml',
         'views/queue_service_views.xml',
-        'views/queue_ticket_views.xml'
+        'views/queue_ticket_views.xml',
+        'views/menus.xml'
     ],
     'assets': {
         'web.assets_backend': [

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <menuitem id="queue_management_queue_ticket" name="Ticket"
+        action="action_queue_ticket" web_icon="queue_management,static/description/icon.png"/>
+        <menuitem id="queue_management_queue_service" name="Services"
+        parent="queue_management_queue_ticket" action="action_queue_service"/>
+    </data>
+
+</odoo>

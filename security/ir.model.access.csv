@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_queue_ticket_manager,queue_ticket_manager,model_queue_ticket,base.group_erp_manager,1,1,1,1
+access_queue_ticket_user,queue_ticket_user,model_queue_ticket,base.group_user,1,0,0,0
+access_queue_service_manager,queue_service_manager,model_queue_service,base.group_erp_manager,1,1,1,1
+access_queue_service_user,queue_service_user,model_queue_service,base.group_user,1,0,0,0

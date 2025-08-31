@@ -1,6 +1,6 @@
 from odoo import models, fields
 
-class QueueTicket(models.Models):
+class QueueTicket(models.Model):
     _name = 'queue.ticket'
     _description = 'Queue Management Ticket'
 
@@ -12,7 +12,7 @@ class QueueTicket(models.Models):
         ('draft', 'Draft'),('waiting', 'Waiting'),
         ('called', 'Called'),('done', 'Done'),
         ('cancelled', 'Cancelled')
-    ])
+    ],default='draft')
     scheduling_time = fields.Date('Date')
     qrcode = fields.Char('Qrcode')
 
