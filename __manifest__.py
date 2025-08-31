@@ -11,6 +11,9 @@
     'odoo_version': '18.0',
     'depends': ['contact', 'website'],
     'data': [
+        'security/ir.access.model.csv',
+        'views/queue_service_views.xml',
+        'views/queue_ticket_views.xml'
     ],
     'assets': {
         'web.assets_backend': [
