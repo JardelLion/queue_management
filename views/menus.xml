@@ -5,6 +5,16 @@
         action="action_queue_ticket" web_icon="queue_management,static/description/icon.png"/>
         <menuitem id="queue_management_queue_service" name="Services"
         parent="queue_management_queue_ticket" action="action_queue_service"/>
+
+        <!-- webiste -->
+        <record id="queue_management_menu_register_company" model="website.menu">
+            <field name="name">Registrar Empresa</field>
+            <field name="url">/register_company</field>
+            <field name="website_id" ref="website.default_website"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" eval="20"/>
+        </record>
+
     </data>
 
 </odoo>

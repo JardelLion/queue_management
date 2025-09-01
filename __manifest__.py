@@ -16,7 +16,8 @@
         'views/res_company_views.xml',
         'views/queue_service_views.xml',
         'views/queue_ticket_views.xml',
-        'views/menus.xml'
+        'views/menus.xml',
+        'views/resgister_company_template.xml'
     ],
     'assets': {
         'web.assets_backend': [
